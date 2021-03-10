@@ -1,0 +1,23 @@
+
+
+<div class="inp">
+    <input placeholder="Prodect Name" [(ngModel)]="prName" class="a1" required><br><br>
+    <input placeholder="Amount" [(ngModel)]="prAmount" class="a2"> 
+    <button (click)="add()" class="b1">ADD</button><br><br>
+</div>
+<div class="tab">
+    <table >
+      <tr>
+        <th>Product Name</th> 
+        <th>Amount</th>
+        <th>Action</th>
+      </tr>
+      <tr *ngFor="let r of rocket; let i = index">
+        <td>{{r.pname}}</td>
+        <td>{{r.amount}}</td>
+        <td><button class="del" (click)="del(i)">Delete</button></td>
+      </tr>
+    </table>
+  </div>
+
+  

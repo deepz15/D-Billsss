@@ -1,0 +1,58 @@
+body{
+    flex-grow: 2;
+}
+.inp{
+    position: relative;
+    top: 84px;
+    left: 455px;
+    width:50%;
+  }
+  
+
+    table, td, th {
+        border: 3px solid #ffff;
+      }
+      
+      table {
+        width: 50%;
+        border-collapse: collapse;
+      }
+      .tab {
+          position: relative;
+          top: 157px;
+          right: -294px;
+          width: 117%;
+      }
+      .a1 {
+        height: 33px;
+        width: 182px;
+        text-align: center;
+        font-family: system-ui;
+        border: 3px solid #ff7b25;
+    }
+    .a2 {
+      height: 33px;
+      width: 182px;
+      text-align: center;
+      font-family: system-ui;
+      border: 3px solid #ff7b25;
+
+  }
+    .b1{
+      position: relative;
+      top: 0px;
+      left: 38px;
+      height: 39px; 
+      border: 3px solid #ff7b25;
+
+  }    
+
+    button.del {
+      width: 100%;
+      background: #ff7b25;
+
+  }
+th{
+  background-color: #ff7b25;
+}
+  

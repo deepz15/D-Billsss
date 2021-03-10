@@ -1,0 +1,23 @@
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+  />
+  
+<div class="content" role="main">
+ <h1> D-Billing </h1>
+   <br><br>
+   <button class="Bl" [routerLink]="['Billing']">Billing </button>
+   <button class="ent" [routerLink]="['Entry']">Entry</button>
+  </div>
+</div>
+<div class="w3-teal">
+  <button class="openbut" onclick="open()">☰</button>
+  
+<div class="sidenav" style="display:none" id="mySidebar">
+    <button onclick="close()" class="xbut">Close &times;</button>
+    <a href="" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+</div>
+<router-outlet></router-outlet>

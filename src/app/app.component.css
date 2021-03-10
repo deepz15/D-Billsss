@@ -1,0 +1,60 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    background-color:#ff7b25;
+    color: #b2ad7f;
+    font-weight: 600;
+    font-family: monospace;
+  }
+  .openbut{
+  position: relative;
+  z-index: 2;
+  }
+  button.Bl {
+    position: relative;
+    top: -83px;
+    left: 280px;
+    background-color: #b2ad7f;
+    height: 30px;
+    width: 65px;
+    font-family: monospace;
+    border: 1px solid #ffff;
+
+  }
+  .content {
+    position: relative;
+    top: 26px;
+    left: 255px;
+}
+button.ent {
+  position: relative;
+  top: -83px;
+  left: 143px;
+  background-color: #b2ad7f;
+  height: 30px;
+  width: 60px;
+  font-family: monospace;
+  border: 1px solid #ffff;
+
+}
+
+  /* .sidenav {
+    height: 60%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  } */

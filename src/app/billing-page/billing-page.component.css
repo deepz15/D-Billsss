@@ -1,0 +1,33 @@
+
+button.home {
+    z-index: 5; 
+    position: relative;
+    top: -56px;
+    right: -566px;
+}
+body{
+    background-image:"https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-background-tong-058.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=710a6fed5b1923da8d5f95191839ef8a";
+}
+  
+table {
+    border-collapse: collapse;
+    height: 300px;
+    width: 400px;
+  }
+  .tab {
+    position: relative;
+    top: 57px;
+    right: -160px;
+    width: 60%;
+  }
+  th{
+    background-color: #ff7b25;
+}
+  table, td, th {
+    border: 3px solid rgb(247, 241, 241);
+  }
+  input{
+      position: relative;
+      top:2px;
+      left:6px;
+  }

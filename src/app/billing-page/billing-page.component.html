@@ -1,0 +1,24 @@
+<button class="home" [routerLink]="['']">Home</button>
+<div>
+<table class="tab">
+  <tr>
+    <th>Product</th> 
+    <th>Amount</th>
+    <th>Quantity</th> 
+    <th>Total</th>
+  </tr>
+  <tr *ngFor="let r of rocket;index of i">
+    
+    <td><select [(ngModel)]="r.pname">
+      <option *ngFor="let x of rocket">{{x.pname}}</option>
+    </select></td>
+    
+    <td >{{change(r)}}</td>
+    <td><input type="number" [(ngModel)]="r.quant"></td>
+    <td [(ngModel)]="r.tot">{{r.amount * r.quant}}</td>
+  </tr>
+</table>
+<button (click)="addrow()">Add</button></div>
+
+<h3 (change)="getTotal">{{getTotal()}}</h3>
+<router-outlet></router-outlet>
